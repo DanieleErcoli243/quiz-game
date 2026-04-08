@@ -27,3 +27,15 @@ body {
     overflow: hideen;
     position: relative;
 }
+
+/* screens */
+
+.screen {
+    display: none;
+    padding: 2rem;
+    text-align: center;
+}
+
+.screen.active {
+    display: block;
+}
