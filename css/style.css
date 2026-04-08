@@ -1,3 +1,7 @@
-body {
-    background-color: red;
+/* css reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
