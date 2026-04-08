@@ -5,3 +5,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* generics */
+
+body {
+    background-color: #f5efe6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    font-family: sans-serif;
+}
