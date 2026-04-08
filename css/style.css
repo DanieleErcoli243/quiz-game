@@ -58,3 +58,10 @@ body {
     margin-bottom: 1rem;
     line-height: 1.4;
 }
+
+.quiz-info {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    margin-bottom: 10px;
+}
