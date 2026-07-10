@@ -7,7 +7,7 @@ const startBtn = document.getElementById('start-btn');
 const questionText = document.getElementById('question-text');
 const answersContainer = document.getElementById('answers-container');
 const currentQuestionSpan = document.getElementById('current-question');
-const totalQuestionSpan = document.getElementById('total-question');
+const totalQuestionsSpan = document.getElementById('total-question');
 const scoreSpan = document.getElementById('score');
 const finalScoreSpan = document.getElementById('final-score');
 const maxScoreSpan = document.getElementById('max-score');
@@ -72,7 +72,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 let answersDisabled = false;
 
-totalQuestionSpan.innerText = quizQuestions.length;
+// totalQuestionsSpan.innerText = quizQuestions.length;
 maxScoreSpan.innerText = quizQuestions.length;
 
 // aggiungo gli ascoltatori di eventi
@@ -80,4 +80,6 @@ maxScoreSpan.innerText = quizQuestions.length;
 startBtn.addEventListener('click', startQuiz);
 restartBtn.addEventListener('click', restartQuiz);
 
+
+// 48:54
 
