@@ -65,3 +65,14 @@ const quizQuestions = [
         ],
     },
 ];
+
+// variabili per lo stato del quiz
+
+let currentQuestionIndex = 0;
+let score = 0;
+let answersDisabled = false;
+
+totalQuestionSpan.innerText = quizQuestions.length;
+maxScoreSpan.innerText = quizQuestions.length;
+
+
