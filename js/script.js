@@ -75,4 +75,9 @@ let answersDisabled = false;
 totalQuestionSpan.innerText = quizQuestions.length;
 maxScoreSpan.innerText = quizQuestions.length;
 
+// aggiungo gli ascoltatori di eventi
+
+startBtn.addEventListener('click', startQuiz);
+restartBtn.addEventListener('click', restartQuiz);
+
 
